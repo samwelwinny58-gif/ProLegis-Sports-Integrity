@@ -1,0 +1,15 @@
+{
+    "name": "ProLegis Full-Stack Environment",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "backend", // The service you want to work from inside the container
+    "workspaceFolder": "/workspace",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.vscode-node-azure-pack",
+                "dbaeumer.vscode-eslint",
+                "ms-azuretools.vscode-docker"
+            ]
+        }
+    }
+}
